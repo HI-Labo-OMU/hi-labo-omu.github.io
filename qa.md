@@ -3,4 +3,4 @@ layout: page
 title: Q & A
 permalink: /qa/
 ---
-Q & A
+Q1：コアタイムはありますか？
