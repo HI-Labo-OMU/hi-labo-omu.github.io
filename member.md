@@ -3,7 +3,6 @@ layout: page
 title: メンバー
 permalink: /member/
 ---
-# メンバー
 教授&emsp;&emsp;&emsp;本多&nbsp;克宏（khonda@omu.ac.jp）<br>
 &emsp;&emsp;&emsp;&emsp;&emsp;野津&nbsp;亮（notsu@omu.ac.jp）<br>
 <br>
