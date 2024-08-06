@@ -3,29 +3,51 @@ layout: page
 title: メンバー
 permalink: /member/
 ---
-教授&emsp;&emsp;&emsp;本多&nbsp;克宏（khonda@omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;野津&nbsp;亮（notsu@omu.ac.jp）<br>
-<br>
-准教授&emsp;&emsp;生方&nbsp;誠希（ubukata@omu.ac.jp）<br>
-<br>
-M2&emsp;&emsp;&emsp;&nbsp;&nbsp;雨嶋&nbsp;亮介（sc23426u@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;得原&nbsp;一馬（sc23270r@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;倉橋&nbsp;隆太（sc23181s@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;大同&nbsp;陸渡（sc23404q@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;林&nbsp;稜也（sa23731r@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;二口&nbsp;和史（sc23393x@st.omu.ac.jp）<br>
-<br>
-M1&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;伊尾&nbsp;大輝（sc24954w@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;町田&nbsp;大知（sc24748v@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;松木&nbsp;智哉（sc24930d@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;湊&nbsp;大輝（sc24705c@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;三輪&nbsp;春斗（sc24719f@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;八乙女&nbsp;大夢（sc24678q@st.omu.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;山下&nbsp;周一郎（sc24625@st.omu.ac.jp）<br>
-<br>
-B4&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;石井&nbsp;隆晴（sfb01004@st.osakafu-u.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;芝塚&nbsp;育大（sfb01063@st.osakafu-u.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;章&nbsp;鎧鑠（sfb01064@st.osakafu-u.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;高橋&nbsp;雄大（se23888i@st.osakafu-u.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;匠&nbsp;祐亮（sfb02079@st.osakafu-u.ac.jp）<br>
-&emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&nbsp;花房&nbsp;亮雅（sfb01116@st.osakafu-u.ac.jp）<br>
+## 教授
+**本多** &nbsp; **克宏** <br>
+- 研究内容
+
+    人の意思決定のような曖昧で複雑な現象をコンピュータ上で解決する研究を通して人よりも賢いロボットの頭脳を実現するべく, 人工知能の高度化に挑戦しています.
+
+- 研究キーワード：ファジィクラスタリング, データマイニング
+- 研究者紹介リンク
+
+    [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100001586_ja.html) <br>
+    [河合塾　みらいぶっく学問・大学なび](https://miraibook.jp/researcher/101)
+
+## 准教授
+**生方** &nbsp; **誠希** <br>
+- 研究内容
+
+    ECサイトや動画視聴サイトのおすすめ機能においてユーザーの嗜好などを自動分類する技術の研究を通して, 高性能なコンテンツ推薦システムの実現に挑戦しています.
+
+- 研究キーワード：ラフクラスタリング, 協調フィルタリング
+- 研究者紹介リンク
+
+    [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100002338_ja.html) <br>
+    [大阪公立大学　教員・学生インタビュー](https://www.omu.ac.jp/i/interview/staff_ubukata/)
+
+## M2
+**雨嶋** &nbsp; **亮介** <br>
+**得原** &nbsp; **一馬** <br>
+**倉橋** &nbsp; **隆太** <br>
+**大同** &nbsp; **陸渡** <br>
+**林** &nbsp; **稜也** <br>
+**二口** &nbsp; **和史** <br>
+
+## M1
+**伊尾** &nbsp; **大輝** <br>
+**町田** &nbsp; **大知** <br>
+**松木** &nbsp; **智哉** <br>
+**湊** &nbsp; **大輝** <br>
+**三輪** &nbsp; **春斗** <br>
+**八乙女** &nbsp; **大夢** <br>
+**山下** &nbsp; **周一郎**<br>
+
+## B4
+**石井** &nbsp; **隆晴** <br>
+**芝塚** &nbsp; **育大** <br>
+**章** &nbsp; **鎧鑠** <br>
+**高橋** &nbsp; **雄大** <br>
+**匠** &nbsp; **祐亮** <br>
+**花房** &nbsp; **亮雅** <br>
