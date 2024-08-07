@@ -20,4 +20,4 @@ permalink: /access/
 
 ---
 ### キャンパスマップ
-![アクセスマップ](/access-map.png/)
+<img src="/public/img/access-map.png" width="700" alt="Access Map">
