@@ -4,30 +4,59 @@ title: メンバー
 permalink: /member/
 ---
 ## 教授
-**本多** &nbsp; **克宏** <br>
+### 本多 &nbsp; 克宏
+
 <img src="/public/img/Prof-Honda.png" width="20%">
-- 研究内容
+
+- **研究内容**
 
     人の意思決定のような曖昧で複雑な現象をコンピュータ上で解決する研究を通して人よりも賢いロボットの頭脳を実現するべく, 人工知能の高度化に挑戦しています.
 
-- 研究キーワード：ファジィクラスタリング, データマイニング
-- 研究者紹介リンク
+- **研究キーワード**
 
-    [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100001586_ja.html) <br>
-    [河合塾　みらいぶっく学問・大学なび](https://miraibook.jp/researcher/101)
+    - ファジィクラスタリング <br>
+    - データマイニング
+
+- **研究者紹介リンク**
+
+    - [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100001586_ja.html) <br>
+    - [河合塾　みらいぶっく学問・大学なび](https://miraibook.jp/researcher/101)
+
+### 野津 &nbsp; 亮
+
+<img src="/public/img/Prof-Notsu.png" width="20%">
+
+- **研究内容**
+
+    人が持つ認知の仕組みをヒントに, 効果的な最適化・学習アルゴリズムをコンピュータシミュレーションによって確認し, 人に優しい環境・AIを探求しています.
+
+- **研究キーワード**
+
+    - 強化学習 <br>
+    - 適応アルゴリズム
+
+- **研究者紹介リンク**
+
+    - [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html) <br>
+    - [大阪公立大学　教員紹介](https://www.omu.ac.jp/sss/undergraduate/psychology/faculty/)
 
 ## 准教授
-**生方** &nbsp; **誠希** <br>
+### 生方 &nbsp; 誠希
 <img src="/public/img/Prof-Ubukata.png" width="20%">
-- 研究内容
+
+- **研究内容**
 
     ECサイトや動画視聴サイトのおすすめ機能においてユーザーの嗜好などを自動分類する技術の研究を通して, 高性能なコンテンツ推薦システムの実現に挑戦しています.
 
-- 研究キーワード：ラフクラスタリング, 協調フィルタリング
-- 研究者紹介リンク
+- **研究キーワード**
 
-    [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100002338_ja.html) <br>
-    [大阪公立大学　教員・学生インタビュー](https://www.omu.ac.jp/i/interview/staff_ubukata/)
+    - ラフクラスタリング <br>
+    - 協調フィルタリング
+
+- **研究者紹介リンク**
+
+    - [大阪公立大学　研究者情報](https://kyoiku-kenkyudb.omu.ac.jp/html/100002338_ja.html) <br>
+    - [大阪公立大学　教員・学生インタビュー](https://www.omu.ac.jp/i/interview/staff_ubukata/)
 
 ## M2
 **雨嶋** &nbsp; **亮介** <br>
