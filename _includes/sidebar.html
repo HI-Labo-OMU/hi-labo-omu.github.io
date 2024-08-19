@@ -1,6 +1,6 @@
 <div class="sidebar-item sidebar-header">
 	<div class='sidebar-brand'>
-		<a href="/about/">{{ site.title }}</a>
+		<a href="/top_page/">{{ site.title }}</a>
 	</div>
 	<p class="lead">{{ site.description }}</p>
 	{%- if social.github -%}
@@ -14,12 +14,14 @@
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
       <li class="nav-title">メニュー</li>
+	  <!--
 	  <li>
 	  	<a class="nav-item" href="/">Articles</a>
 	  </li>
+	-->
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}
-	    {% if node.title != null %}
+	    {% if node.title != null and node.title != "About" and node.title != "トップページ" and node.title != "pygments-css"%}
 	      {% if node.layout == "page" %}
 	        <li>
 	        	<a class="nav-item" href="{{ node.url }}">
