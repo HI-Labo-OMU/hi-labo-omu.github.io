@@ -11,27 +11,15 @@ permalink: /top_page/
 
 ### 教授：本多 克宏
 <img src="/public/img/honda.jpg" alt="honda" style = "width: 10%; height: 10%;">
-* 担当　大学院情報学研究科　基幹情報学専攻，工学部　情報工学科
-* 所属　情報学研究院
-* 連絡先　khonda@omu.ac.jp
-* 所属キャンパス　中百舌鳥キャンパス
-* 詳細　[https://kyoiku-kenkyudb.omu.ac.jp/html/100001586_ja.html](https://kyoiku-kenkyudb.omu.ac.jp/html/100001586_ja.html){:target="_blank"}
+一言コメント
 
 ### 教授：野津 亮
 <img src="/public/img/notsu.jpg" alt="notsu" style = "width: 10%; height: 10%;">
-* 担当　大学院現代システム科学研究科　現代システム科学専攻，現代システム科学域　心理学類
-* 所属　現代システム科学研究院
-* 連絡先　notsu@omu.ac.jp
-* 所属キャンパス　中百舌鳥キャンパス
-* 詳細 [https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html](https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html){:target="_blank"}
+一言コメント
 
 ### 准教授：生方 誠希
 <img src="/public/img/ubukata.jpg" alt="ubukata" style = "width: 10%; height: 10%;">
-* 担当　大学院情報学研究科　基幹情報学専攻，工学部　情報工学科
-* 所属　情報学研究院
-* 連絡先　ubukata@omu.ac.jp
-* 所属キャンパス　中百舌鳥キャンパス
-* 詳細 [https://kyoiku-kenkyudb.omu.ac.jp/html/100002338_ja.html](https://kyoiku-kenkyudb.omu.ac.jp/html/100002338_ja.html){:target="_blank"}
+一言コメント
 
 ## 人と情報のソフトなインターフェース
 ファジィ理論と多変量解析法との融合手法による，アンケートデータやインターネットコンテンツなどの大規模データベースからの知識発見，人間のあいまいな価値判断を含む感性情報の処理を実現するデータ解析法，認知モデルや感性モデルに基づいたエージェントシミュレーションや学習アルゴリズム，情報メディアの開発などの研究を行っています．
