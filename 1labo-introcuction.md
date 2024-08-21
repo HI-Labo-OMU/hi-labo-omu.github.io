@@ -6,8 +6,8 @@ permalink: /labointroduction/
 ## 研究室
 <table>
     <tr>
-        <td><img src="https://csshtml.work/wp-content/uploads/1.jpg" alt=""></td>
-        <td><img src="https://csshtml.work/wp-content/uploads/2.jpg" alt=""></td>
+        <td><img src="/public/img/lab1.jpg" alt=""></td>
+        <td><img src="/public/img/lab2.jpg" alt=""></td>
     </tr>
 </table>
 
