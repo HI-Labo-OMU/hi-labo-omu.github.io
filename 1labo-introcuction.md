@@ -3,9 +3,21 @@ layout: page
 title: 研究室紹介
 permalink: /labointroduction/
 ---
-## 人間情報システム研究室
-人間情報システム研究室では，ファジィ理論と多変量解析法との融合手法による，アンケートデータやインターネットコンテンツなどの大規模データベースからの知識発見，人間のあいまいな価値判断を含む感性情報の処理を実現するデータ解析法，認知モデルや感性モデルに基づいたエージェントシミュレーションや学習アルゴリズム，情報メディアの開発などの研究を行っています．
+## 研究室
+<img src="/public/img/lab1.png" width="20%">
+<img src="/public/img/lab2.png" width="20%">
+
+## 学会
+[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)
+
+## 卒業式や飲み会等の行事
+<img src="/public/img/gradCeremony.png" width="20%">
+
+## 学生からひと言
 
 
-# 学会等
-活発な研究活動を行い，プログラミング能力と英語能力の向上を目標としています．特に，大学院生は毎年のように国際会議で発表を行っており，よく国際学会に行く生徒は年に2，3回参加しています。そのため、英語でのプレゼンテーション能力の向上に力を入れています．
+| 学年 | コメント |
+|------|----------|
+| 院生 I | 　教授の面倒見がよく、とても楽しい研究室です！ |
+| 院生 ? | ????????????????????????????????????????? |
+ 
