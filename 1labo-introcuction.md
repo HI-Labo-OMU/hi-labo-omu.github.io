@@ -6,8 +6,8 @@ permalink: /labointroduction/
 ## 研究室
 <table>
     <tr>
-        <td><img src="/public/img/lab1.jpg" width="20%" alt=""></td>
-        <td><img src="/public/img/lab2.jpg" width="20%" alt=""></td>
+        <td><img src="/public/img/lab1.jpg" alt=""></td>
+        <td><img src="/public/img/lab2.jpg" alt=""></td>
     </tr>
 </table>
 
@@ -17,11 +17,11 @@ permalink: /labointroduction/
 
 <table>
     <tr>
-        <td><img src="/public/img/20171012-120525-0.jpg" width="20%" alt=""></td>
+        <td><img src="/public/img/20171012-120525-0.jpg" width="40%" alt=""></td>
     </tr>
 </table>
 ## 卒業式や飲み会等の行事
-<img src="/public/img/gradCeremony.jpg" width="20%" alt="">
+<img src="/public/img/gradCeremony.jpg" width="40%" alt="">
 
 ## 学生からひと言
 
