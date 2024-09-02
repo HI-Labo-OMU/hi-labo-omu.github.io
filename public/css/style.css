@@ -139,13 +139,17 @@ code {
 }
 
 a.nav-item {
+	display: block;
 	font-size: 120%;
 	/*font-family: '游ゴシック', 'Gelasio', 'Nanum Myeongjo', serif;*/
 	text-transform: capitalize;
 	color: #fff;
 }
 
-a.nav-item:hover { background-color: #2a5772; }
+a.nav-item:hover {
+	background-color: #2a5772;
+	text-decoration: none;
+}
 
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
