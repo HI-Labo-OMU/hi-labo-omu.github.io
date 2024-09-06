@@ -54,11 +54,11 @@ permalink: /labointroduction/
     </tr>
     <tr>
         <th style="padding: 4px 5px; border: solid 1px;">院生D</th>
-        <td style="padding: 4px 5px; border: solid 1px;">コアタイムが無いので、研究とプライベートの両立がしやすい研究室だと思います！</a></td>
+        <td style="padding: 4px 5px; border: solid 1px;">コアタイムが無いので、研究とプライベートの両立がしやすい研究室だと思います！</td>
     </tr>
     <tr>
         <th style="padding: 4px 5px; border: solid 1px;">院生K</th>
-        <td style="padding: 4px 5px; border: solid 1px;">積極的に学会に参加することができます。</a></td>
+        <td style="padding: 4px 5px; border: solid 1px;">積極的に学会に参加することができます。</td>
     </tr>
     <tr>
         <th style="padding: 4px 5px; border: solid 1px;">院生Y</th>
