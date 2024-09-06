@@ -6,8 +6,8 @@ permalink: /labointroduction/
 ## 研究室
 <table>
     <tr>
-        <td><img src="/public/img/lab1.jpg" alt="" width="25%"></td>
-        <td><img src="/public/img/lab2.jpg" alt=""  width="25%"></td>
+        <td><img src="/public/img/lab1.jpg" alt="" width="500" height="200"></td>
+        <td><img src="/public/img/lab2.jpg" alt=""  width="500" height="200"></td>
     </tr>
 </table>
 研究室にはものがいろいろ置いてあります
@@ -18,12 +18,12 @@ permalink: /labointroduction/
 
 <table>
     <tr>
-        <td><img src="/public/img/20171012-120525-0.jpg" alt=""  width="25%"></td>
-        <td><img src="/public/img/IEEE1.jpg" alt=""  width="25%"></td>
+        <td><img src="/public/img/20171012-120525-0.jpg" alt=""  height="200"></td>
+        <td><img src="/public/img/IEEE1.jpg" alt=""  height="200"></td>
     </tr>
     <tr>
-        <td><img src="/public/img/IEEE2.jpg" alt=""  width="25%"></td>
-        <td><img src="/public/img/S__3.jpg" alt=""  width="25%"></td>
+        <td><img src="/public/img/IEEE2.jpg" alt=""  width="300"></td>
+        <td><img src="/public/img/S__3.jpg" alt=""  width="300"></td>
     </tr>
 </table>
 国内の学会だけでなく海外の学会に参加することもできます
@@ -33,10 +33,11 @@ permalink: /labointroduction/
 ## 卒業式や飲み会等の行事
 <table>
     <tr>
-        <td><img src="/public/img/gradCeremony.jpg" alt="" width="25%" height="25%"></td>
-        <td><img src="/public/img/graduate.jpg" alt="" width="25%" height="25%"></td>
+        <td><img src="/public/img/gradCeremony.jpg" alt="" width="300" height="200"></td>
+        <td><img src="/public/img/graduate.jpg" alt="" width="300" height="200"></td>
     </tr>
 </table>
+
 コロナでイベントが減ってしまっていますがこれから増やしていく予定です
 
 ## 学生からひと言
