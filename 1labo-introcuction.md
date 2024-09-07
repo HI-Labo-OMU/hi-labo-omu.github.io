@@ -13,8 +13,6 @@ permalink: /labointroduction/
 研究室にはものがいろいろ置いてあります
 ## 学会
 
-[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)
-[IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
 
 <table>
     <tr>
