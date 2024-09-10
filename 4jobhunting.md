@@ -61,6 +61,7 @@ section.job-year h2 {
 
 .job-list li {
   margin-bottom: 5px;
+  color: #FF0C0C
 }
 
 /* リンクスタイル */
