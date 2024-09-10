@@ -56,7 +56,7 @@ section.job-year h2 {
 
 .job-list {
   margin-left: 20px;
-  color: #fff;
+  color: #b0d7d5;
 }
 
 .job-list li {
