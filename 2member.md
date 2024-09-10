@@ -30,8 +30,7 @@ permalink: /member/
     </tr>
 </table>
 
-<br>
-<br>
+---
 
 <img src="/public/img/Prof-Notsu.png" style="float: left; margin-top: 30px; margin-right: 20px;" width="25%">
 
@@ -59,8 +58,7 @@ permalink: /member/
     </tr>
 </table>
 
-<br>
-<br>
+---
 
 <img src="/public/img/Prof-Ubukata.png" style="float: left; margin-top: 25px; margin-right: 20px;" width="25%">
 
@@ -87,11 +85,3 @@ permalink: /member/
         <td style="padding: 8px 10px; border: solid 1px;"><a href="https://www.omu.ac.jp/i/interview/staff_ubukata/" target="_self">大阪公立大学　教員・学生インタビュー</a></td>
     </tr>
 </table>
-
-<br>
-
-## M2 &nbsp; - &nbsp; 6名
-
-## M1 &nbsp; - &nbsp; 7名
-
-## B4 &nbsp; - &nbsp; 6名
