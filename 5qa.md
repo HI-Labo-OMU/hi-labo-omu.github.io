@@ -8,11 +8,11 @@ permalink: /qa/
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #B0D7D5; /* 全体背景色を淡い色に */
+    background-color: #FFFFFF; /* 全体の背景を白に */
   }
   
   .qa-item {
-    background-color: #FFFFFF; /* 各QAの背景色は白に設定 */
+    background-color: #F9F9F9; /* 各QAの背景色を淡いグレーに */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -21,23 +21,22 @@ permalink: /qa/
   }
 
   .qa-question {
-    color: #4790BB; /* 質問部分に濃い青色を設定 */
+    color: #2A5772; /* 質問部分の文字色を濃い青に */
     font-weight: bold;
     cursor: pointer;
     margin: 0;
-    padding: 10px 0;
-    background-color: #2A5772; /* 質問部分の背景に濃い色を */
     padding: 15px;
+    background-color: #B0D7D5; /* 質問部分の背景色を明るい青緑に */
     border-radius: 5px;
-    color: #FFFFFF; /* 質問部分の文字色は白に */
   }
 
   .qa-answer {
     display: none;
     color: #333;
-    background-color: #B0D7D5; /* 回答部分に淡い背景色を適用 */
+    background-color: #FFFFFF; /* 回答部分の背景を白にしてシンプルに */
     padding: 15px;
     border-radius: 5px;
+    border-left: 3px solid #4790BB; /* 回答部分にアクセントを追加 */
   }
 
   .qa-item:hover {
@@ -101,6 +100,7 @@ permalink: /qa/
     <p><strong>不定期</strong></p>
     <ul>
       <li>学会の発表練習</li>
+      <li>学会の参加報告</li>
     </ul>
   </div>
 </div>
