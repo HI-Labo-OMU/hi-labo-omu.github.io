@@ -8,10 +8,11 @@ permalink: /qa/
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #B0D7D5; /* 全体背景色を淡い色に */
   }
   
   .qa-item {
-    background-color: #f9f9f9;
+    background-color: #FFFFFF; /* 各QAの背景色は白に設定 */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -20,25 +21,45 @@ permalink: /qa/
   }
 
   .qa-question {
-    color: #007acc;
+    color: #4790BB; /* 質問部分に濃い青色を設定 */
     font-weight: bold;
     cursor: pointer;
     margin: 0;
     padding: 10px 0;
+    background-color: #2A5772; /* 質問部分の背景に濃い色を */
+    padding: 15px;
+    border-radius: 5px;
+    color: #FFFFFF; /* 質問部分の文字色は白に */
   }
 
   .qa-answer {
     display: none;
     color: #333;
-    background-color: #f5f5f5;
+    background-color: #B0D7D5; /* 回答部分に淡い背景色を適用 */
     padding: 15px;
     border-radius: 5px;
   }
 
-  .qa-question:hover + .qa-answer {
-    display: block;
+  .qa-item:hover {
+    border-color: #4790BB; /* ホバー時に枠の色を変更 */
   }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var questions = document.querySelectorAll('.qa-question');
+    questions.forEach(function(question) {
+      question.addEventListener('click', function() {
+        var answer = this.nextElementSibling;
+        if (answer.style.display === "block") {
+          answer.style.display = "none";
+        } else {
+          answer.style.display = "block";
+        }
+      });
+    });
+  });
+</script>
 
 <div class="qa-item">
   <h3 class="qa-question">Q: コアタイムはありますか？</h3>
