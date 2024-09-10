@@ -341,3 +341,79 @@ footer {
 		display: none;
 	}
 }
+:root {
+  --primary-color: #4790bb; /* アクセントカラー */
+  --secondary-color: #b0d7d5; /* セカンダリカラー、背景など */
+  --dark-blue: #2a5772; /* メインのテキストカラー */
+}
+
+body {
+  background-color: var(--secondary-color); /* ページ全体の背景色 */
+  color: var(--dark-blue); /* テキストカラー */
+}
+
+a {
+  color: var(--primary-color); /* リンクの色 */
+}
+
+a:hover {
+  color: #2a5772; /* リンクのホバー時の色 */
+}
+
+header.post-header {
+  background-color: var(--primary-color); /* ヘッダー背景 */
+  color: #fff; /* ヘッダーの文字色は白で */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid var(--dark-blue); /* ボーダーをダークブルーで */
+}
+
+footer {
+  background-color: var(--dark-blue); /* フッターの背景色 */
+  color: white; /* フッターの文字色は白 */
+  padding: 20px;
+}
+
+button {
+  background-color: var(--primary-color); /* ボタン背景 */
+  color: white; /* ボタンのテキストカラー */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--dark-blue); /* ボタンのホバー時の色 */
+}
+.sidebar {
+  background-color: var(--dark-blue); /* サイドバーの背景色をダークブルー */
+  color: white;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: var(--primary-color); /* サイドバー内のリンクをアクセントカラーに */
+}
+
+.sidebar a:hover {
+  color: white; /* ホバー時は白に */
+}
+
+.sidebar-header {
+  background-color: var(--primary-color); /* サイドバーのヘッダーをアクセントカラーで */
+  color: white;
+  padding: 10px;
+}
+ul li {
+  background-color: var(--secondary-color); /* リストの背景色をセカンダリカラーに */
+  border-left: 4px solid var(--primary-color); /* 左にアクセントカラーのボーダー */
+  padding: 10px;
+  margin-bottom: 5px;
+  color: var(--dark-blue); /* テキストをダークブルーに */
+}
+
+ul li:hover {
+  background-color: var(--primary-color); /* ホバー時に背景色をアクセントカラーに */
+  color: white; /* ホバー時のテキストは白に */
+}
