@@ -267,8 +267,10 @@ header.home {
 
 .post-title {
 	font-size: 1.5em;
-	color: #111;
 	font-weight: bold;
+	color: #fff;
+	background-color: #4790BB;
+	padding: 10px;
 }
 
 .post-date {
