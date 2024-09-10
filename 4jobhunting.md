@@ -24,7 +24,7 @@ h1 {
 h2 {
   color: #2a5772;
   font-size: 1.5em;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 h3 {
@@ -43,35 +43,54 @@ li {
   margin-bottom: 10px;
 }
 
-/* 就職先のセクションを強調 */
+/* セクション全体に枠と背景色を追加 */
 section.job-year {
-  margin-top: 30px;
-  padding-top: 20px;
-  border-top: 1px solid #b0d7d5;
+  background-color: #f8f9fa; /* 背景色を淡いグレーに */
+  border: 2px solid #b0d7d5; /* 淡い色で枠を設定 */
+  padding: 20px; /* 内側の余白 */
+  margin-bottom: 20px; /* セクションごとの間隔 */
+  border-radius: 10px; /* 角を丸くする */
 }
 
+/* 見出し（年度）を強調 */
 section.job-year h2 {
-  color: #b0d7d5;
+  color: #2a5772;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center; /* 中央揃えにして視覚的に目立たせる */
+}
+/* リストアイテムを3列に並べる */
+ul.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* 各リストアイテム間のスペース */
+  padding: 0;
+  margin: 0;
+  list-style-type: none; /* リストマーカーを消す */
+  align-items: stretch; /* アイテムの高さを揃える */
 }
 
-.job-list {
-  margin-left: 20px;
-  color: #b0d7d5;
+ul.job-list li {
+  background-color: #b0d7d5;
+  color: #2a5772;
+  flex: 1 1 calc(33.33% - 20px); /* 3列に並べるための幅を調整 */
+  padding: 15px;
+  margin: 0 5px 10px 5px; /* 左右に少し余白を追加 */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  display: block;
+  box-sizing: border-box; /* パディングを含めてサイズ計算 */
+  min-height: 50px; /* アイテムの最小高さを設定して揃える */
 }
 
-.job-list li {
-  margin-bottom: 5px;
-  color: #FF0C0C
+/* ダミーアイテムを非表示にする */
+ul.job-list li.dummy {
+  visibility: hidden;
+  flex: 1 1 calc(33.33% - 20px); /* 同じ幅を持たせて列を揃える */
+  margin: 0;
 }
 
-/* リンクスタイル */
-a {
-  color: #b0d7d5;
-}
-
-a:hover {
-  color: #fff;
-}
 </style>
 
 # 大学院生の就職活動スケジュール
@@ -117,6 +136,8 @@ a:hover {
     <li>SMBC日興証券</li>
     <li>NTTデータ関西</li>
     <li>朝日ネット</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
   </ul>
 </section>
 
@@ -131,8 +152,228 @@ a:hover {
     <li>オプテージ</li>
     <li>レンゴー</li>
     <li>MonotaRO</li>
+<li class="dummy"></li>
   </ul>
 </section>
 
-<!-- さらに年度別就職先リストを追加 -->
+<section class="job-year">
+  <h2>2021年度</h2>
+  <ul class="job-list">
+    <li>パナソニック</li>
+    <li>ダイキン工業</li>
+    <li>ヤフー</li>
+    <li>サイバーエージェント (2)</li>
+    <li>京セラドキュメントソリューションズ</li>
+<li class="dummy"></li>
+  </ul>
+</section>
 
+<section class="job-year">
+  <h2>2020年度</h2>
+  <ul class="job-list">
+    <li>NTT西日本 (2)</li>
+    <li>パナソニック</li>
+    <li>シャープ (2)</li>
+    <li>イーソル</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2019年度</h2>
+  <ul class="job-list">
+    <li>ヤフー</li>
+    <li>NTT西日本 (2)</li>
+    <li>パナソニック (2)</li>
+    <li>ダイキン工業</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2018年度</h2>
+  <ul class="job-list">
+    <li>トヨタ自動車</li>
+    <li>ダイキン工業</li>
+    <li>住友電気工業 (2)</li>
+    <li>シャープ</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2017年度</h2>
+  <ul class="job-list">
+    <li>三菱電機</li>
+    <li>本田技研工業</li>
+    <li>ダイキン工業</li>
+    <li>シンプレクス</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2016年度</h2>
+  <ul class="job-list">
+    <li>三菱電機</li>
+    <li>長谷川鉄工</li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2015年度</h2>
+  <ul class="job-list">
+    <li>日立製作所 (2)</li>
+    <li>NTT西日本</li>
+    <li>日本電気</li>
+    <li>野村総合研究所</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2014年度</h2>
+  <ul class="job-list">
+    <li>トヨタ自動車 (2)</li>
+    <li>大和総研</li>
+    <li>日立製作所</li>
+    <li>日興システムソリューションズ</li>
+    <li>三菱自動車工業</li>
+    <li>住友電気工業</li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2013年度</h2>
+  <ul class="job-list">
+    <li>日立製作所 (2)</li>
+    <li>楽天</li>
+    <li>阪急電鉄</li>
+    <li>ダイキン工業</li>
+    <li>野村総合研究所</li>
+    <li>沖アドバンストコミュニケーションズ</li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2012年度</h2>
+  <ul class="job-list">
+    <li>関西電力</li>
+    <li>日立製作所</li>
+    <li>三菱東京UFJ</li>
+    <li>ダイキン工業</li>
+    <li>データスタジアム</li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2011年度</h2>
+  <ul class="job-list">
+    <li>朝日新聞社</li>
+    <li>NTTコミュニケーションズ</li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2010年度</h2>
+  <ul class="job-list">
+    <li>パナソニック</li>
+    <li>シャープ</li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2009年度</h2>
+  <ul class="job-list">
+    <li>関西電力</li>
+    <li>シャープ (2)</li>
+    <li>キーエンス</li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2008年度</h2>
+  <ul class="job-list">
+    <li>松下電器 (2)</li>
+    <li>松下電工</li>
+    <li>シャープ</li>
+    <li>日本電気</li>
+    <li>デンソー</li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2007年度</h2>
+  <ul class="job-list">
+    <li>デンソー</li>
+    <li>シャープ</li>
+    <li>三菱電機</li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2006年度</h2>
+  <ul class="job-list">
+    <li>シャープ</li>
+    <li>関西電力</li>
+    <li>大和証券SMBC</li>
+    <li>オリエンタルランド</li>
+<li class="dummy"></li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2005年度</h2>
+  <ul class="job-list">
+    <li>松下電器</li>
+    <li>日本電気</li>
+    <li>東レ</li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2004年度</h2>
+  <ul class="job-list">
+    <li>松下電器</li>
+    <li>西日本電信電話</li>
+    <li>住友信託銀行</li>
+    <li>日本総研</li>
+    <li>日本電気</li>
+    <li>三菱商事</li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2003年度</h2>
+  <ul class="job-list">
+    <li>シャープ</li>
+    <li>住友電気工業</li>
+    <li>三井住友海上火災</li>
+    <li>日本IBM</li>
+    <li>KDDI</li>
+<li class="dummy"></li>
+  </ul>
+</section>
+
+<section class="job-year">
+  <h2>2002年度</h2>
+  <ul class="job-list">
+    <li>日本生命</li>
+    <li>富士通</li>
+    <li>三菱電機</li>
+    <li>松下電器</li>
+    <li>日本総研</li>
+    <li>日本電気</li>
+  </ul>
+</section>
