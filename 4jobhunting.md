@@ -3,6 +3,24 @@ layout: page
 title: 大学院生の就職先
 permalink: /jobhunting/
 ---
+<style>
+body {
+  background-color: #47617f;
+  color: #1f2e3d;
+}
+
+h1 {
+  color: #6b92b9;
+}
+
+h2 {
+  color: #2a5772;
+}
+
+a {
+  color: #b0d7d5;
+}
+</style>
 当研究室では研究だけでなく就職活動にも力を入れています。
 
 以下は学生が修士1年次から修士2年次にかけての就活スケジュールです。
