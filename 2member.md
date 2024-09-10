@@ -11,21 +11,21 @@ permalink: /member/
 **教授**<br>
 <br>
 
-<table style="border-collapse: collapse; border: solid 3px;">
+<table style="border-collapse: collapse; border: solid 1px;">
     <tr>
-        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB;">研究内容</th>
+        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB; color: #fff;">研究内容</th>
         <td style="padding: 8px 10px; border: solid 1px;">人の意思決定のような曖昧で複雑な現象をコンピュータ上で解決する研究を通して人よりも賢いロボットの頭脳を実現するべく, 人工知能の高度化に挑戦しています.</td>
     </tr>
     <tr>
-        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB;">研究キーワード</th>
+        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB; color: #fff;">研究キーワード</th>
         <td style="padding: 8px 10px; border: solid 1px;">ファジィクラスタリング, データマイニング</td>
     </tr>
     <tr>
-        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB;">研究者紹介リンク1</th>
+        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB; color: #fff;">研究者紹介リンク1</th>
         <td style="padding: 8px 10px; border: solid 1px;"><a href="https://kyoiku-kenkyudb.omu.ac.jp/html/100001586_ja.html" target="_self">大阪公立大学　研究者情報</a></td>
     </tr>
     <tr>
-        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB;">研究者紹介リンク2</th>
+        <th style="padding: 8px 10px; border: solid 1px; background-color: #4790BB; color: #fff;">研究者紹介リンク2</th>
         <td style="padding: 8px 10px; border: solid 1px;"><a href="https://miraibook.jp/researcher/101" target="_self">河合塾　みらいぶっく学問・大学なび</a></td>
     </tr>
 </table>
