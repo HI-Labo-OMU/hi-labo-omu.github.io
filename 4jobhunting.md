@@ -88,7 +88,13 @@ ul.job-list li {
 ul.job-list li.dummy {
   visibility: hidden;
   flex: 1 1 calc(33.33% - 20px); /* 同じ幅を持たせて列を揃える */
-  margin: 0;
+ padding: 15px;
+  margin: 0 5px 10px 5px; /* 左右に少し余白を追加 */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  display: block;
+  box-sizing: border-box; /* パディングを含めてサイズ計算 */
 }
 
 </style>
