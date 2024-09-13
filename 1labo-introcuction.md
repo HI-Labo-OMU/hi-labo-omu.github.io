@@ -8,7 +8,7 @@ permalink: /labointroduction/
     <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
     <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
 </div>
-研究室にはものがいろいろ置いてあります。ここでお昼を食べ、談笑することもあります。
+研究室にはものがいろいろ置いてあります。
 
 ## 学会
 
