@@ -4,41 +4,35 @@ title: 研究室紹介
 permalink: /labointroduction/
 ---
 ## 研究室
-<table>
-    <tr>
-        <td><img src="/public/img/lab1.jpg" alt=""  width="600" height="400"></td>
-        <td><img src="/public/img/lab2.jpg" alt=""   width="600" height="400"></td>
-    </tr>
-</table>
-研究室にはものがいろいろ置いてあります
+<div style="display: flex; justify-content: space-between;">
+    <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
+</div>
+研究室にはものがいろいろ置いてあります。
+
 ## 学会
 
-[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)
+[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)  
 [IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
 
-<table>
-    <tr>
-        <td><img src="/public/img/20171012-120525-0.jpg" alt=""   width="600" height="400"></td>
-        <td><img src="/public/img/IEEE1.jpg" alt=""   width="600" height="400"></td>
-    </tr>
-    <tr>
-        <td><img src="/public/img/IEEE2.jpg" alt=""   width="600" height="400"></td>
-        <td><img src="/public/img/S__3.jpg" alt=""   width="600" height="400"></td>
-    </tr>
-</table>
-国内の学会だけでなく海外の学会に参加することもできます
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <img src="/public/img/20171012-120525-0.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/IEEE1.jpg" alt="" style="width: 48%; height: auto;">
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;">
+    <img src="/public/img/IEEE2.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/S__3.jpg" alt="" style="width: 48%; height: auto;">
+</div>
+国内の学会だけでなく海外の学会に参加することもでき、多ければ、年に２，３回海外に行くこともできます。
 
-参加学会　[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)　
-[IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
 ## 卒業式や飲み会等の行事
-<table>
-    <tr>
-        <td><img src="/public/img/gradCeremony.jpg" alt=""  width="600" height="400"></td>
-        <td><img src="/public/img/graduate.jpg" alt="" width="600" height="400"></td>
-    </tr>
-</table>
+<div style="display: flex; justify-content: space-between;">
+    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/graduate.jpg" alt="" style="width: 48%; height: auto;">
+</div>
 
-コロナでイベントが減ってしまっていますがこれから増やしていく予定です
+コロナでイベントが減ってしまっていますがこれから増やしていく予定です。２０２４年は研究室全体での食事会を行いました。
+
 
 ## 学生からひと言
 
