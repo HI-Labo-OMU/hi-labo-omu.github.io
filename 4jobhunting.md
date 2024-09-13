@@ -3,7 +3,6 @@ layout: page
 title: 大学院生の就職先
 permalink: /jobhunting/
 ---
-
 <style>
 /* 全体の背景と文字色 */
 body {
@@ -14,30 +13,24 @@ body {
 
 /* 見出しスタイル */
 h1 {
-  color: #6b92b9;
+  color: #6b92b9 !important;
   font-size: 2em;
   border-bottom: 2px solid #6b92b9;
   padding-bottom: 10px;
   margin-top: 40px;
 }
-
 h2 {
-  color: #2a5772;
+  color: #2a5772 !important;
   font-size: 1.5em;
   margin-top: 10px;
 }
-
 h3 {
-  color: #2a5772;
+  color: #2a5772 !important;
   font-size: 1.25em;
   margin-top: 20px;
 }
 
 /* リストのスタイル */
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
-}
 
 li {
   margin-bottom: 10px;
@@ -97,11 +90,17 @@ ul.job-list li.dummy {
   box-sizing: border-box; /* パディングを含めてサイズ計算 */
 }
 
+.intro {
+    margin-top: 20px; /* 上に20pxのマージンを追加 */
+    margin-bottom: 20px; /* 下に20pxのマージンを追加 */
+}
+
+
 </style>
 
 # 大学院生の就職活動スケジュール
 
-当研究室では研究だけでなく就職活動にも力を入れています。以下は学生が修士1年次から修士2年次にかけての就活スケジュールです。
+<p class="intro">当研究室では研究だけでなく就職活動にも力を入れています。以下は学生が修士1年次から修士2年次にかけての就活スケジュールです。</p>
 
 ## 修士1年次
 
@@ -130,7 +129,8 @@ ul.job-list li.dummy {
 
 # 大学院生の就職先
 
-次に当研究室の大学院生の就職先を紹介します。
+<p class="intro">次に当研究室の大学院生の就職先を紹介します。</p>
+
 
 <section class="job-year">
   <h2>2023年度</h2>
@@ -139,11 +139,8 @@ ul.job-list li.dummy {
     <li>シャープ</li>
     <li>パナソニックコネクト</li>
     <li>日鉄ソリューションズ</li>
-    <li>SMBC日興証券</li>
     <li>NTTデータ関西</li>
     <li>朝日ネット</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
   </ul>
 </section>
 
