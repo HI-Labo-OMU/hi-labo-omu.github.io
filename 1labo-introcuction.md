@@ -6,8 +6,8 @@ permalink: /labointroduction/
 ## 研究室
 <table>
     <tr>
-        <td><img src="/public/img/lab1.jpg" alt=""  width="600" height="400"></td>
-        <td><img src="/public/img/lab2.jpg" alt=""   width="600" height="400"></td>
+        <td><img src="/public/img/lab1.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/lab2.jpg" alt="" style="width: 100%; height: auto;"></td>
     </tr>
 </table>
 研究室にはものがいろいろ置いてあります
@@ -18,12 +18,12 @@ permalink: /labointroduction/
 
 <table>
     <tr>
-        <td><img src="/public/img/20171012-120525-0.jpg" alt=""   width="600" height="400"></td>
-        <td><img src="/public/img/IEEE1.jpg" alt=""   width="600" height="400"></td>
+        <td><img src="/public/img/20171012-120525-0.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/IEEE1.jpg" alt="" style="width: 100%; height: auto;"></td>
     </tr>
     <tr>
-        <td><img src="/public/img/IEEE2.jpg" alt=""   width="600" height="400"></td>
-        <td><img src="/public/img/S__3.jpg" alt=""   width="600" height="400"></td>
+        <td><img src="/public/img/IEEE2.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/S__3.jpg" alt="" style="width: 100%; height: auto;"></td>
     </tr>
 </table>
 国内の学会だけでなく海外の学会に参加することもできます
@@ -33,8 +33,8 @@ permalink: /labointroduction/
 ## 卒業式や飲み会等の行事
 <table>
     <tr>
-        <td><img src="/public/img/gradCeremony.jpg" alt=""  width="600" height="400"></td>
-        <td><img src="/public/img/graduate.jpg" alt="" width="600" height="400"></td>
+        <td><img src="/public/img/gradCeremony.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/graduate.jpg" alt="" style="width: 100%; height: auto;"></td>
     </tr>
 </table>
 
