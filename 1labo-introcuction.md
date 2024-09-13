@@ -6,11 +6,11 @@ permalink: /labointroduction/
 ## 研究室
 <table>
     <tr>
-        <td><img src="/public/img/lab1.jpg" alt="" style="width: 100%; height: auto;"></td>
-        <td><img src="/public/img/lab2.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/lab1.jpg" alt="" style="width: 50%; height: auto;"></td>
+        <td><img src="/public/img/lab2.jpg" alt="" style="width: 50%; height: auto;"></td>
     </tr>
 </table>
-研究室にはものがいろいろ置いてあります
+研究室にはものがいろいろ置いてあります。ここでお昼を食べ、談笑することもあります。
 ## 学会
 
 [SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)
@@ -18,27 +18,26 @@ permalink: /labointroduction/
 
 <table>
     <tr>
-        <td><img src="/public/img/20171012-120525-0.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/20171012-120525-0.jpg" alt="" style="width: 50%; height: auto;"></td>
         <td><img src="/public/img/IEEE1.jpg" alt="" style="width: 100%; height: auto;"></td>
     </tr>
     <tr>
-        <td><img src="/public/img/IEEE2.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/IEEE2.jpg" alt="" style="width: 500%; height: auto;"></td>
         <td><img src="/public/img/S__3.jpg" alt="" style="width: 100%; height: auto;"></td>
     </tr>
 </table>
-国内の学会だけでなく海外の学会に参加することもできます
+国内の学会だけでなく海外の学会に参加することもでき、多ければ、年に２，３回海外に行くこともできます。
 
-参加学会　[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)　
-[IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
+
 ## 卒業式や飲み会等の行事
 <table>
     <tr>
-        <td><img src="/public/img/gradCeremony.jpg" alt="" style="width: 100%; height: auto;"></td>
-        <td><img src="/public/img/graduate.jpg" alt="" style="width: 100%; height: auto;"></td>
+        <td><img src="/public/img/gradCeremony.jpg" alt="" style="width: 150%; height: auto;"></td>
+        <td><img src="/public/img/graduate.jpg" alt="" style="width: 50%; height: auto;"></td>
     </tr>
 </table>
 
-コロナでイベントが減ってしまっていますがこれから増やしていく予定です
+コロナでイベントが減ってしまっていますがこれから増やしていく予定です。２０２４年は研究室全体での食事会を行いました。
 
 ## 学生からひと言
 
