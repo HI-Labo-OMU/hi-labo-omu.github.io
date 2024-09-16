@@ -13,7 +13,7 @@ h3 {
   /* color: #4790bb !important; */
 }
 p {
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 </style>
 
@@ -24,24 +24,23 @@ p {
 </div>
 
 <h4>教授：本多 克宏</h4>
-<img src="/public/img/Prof-Honda.png" alt="honda" style = "width: 178px; height: 225px; float: left; margin-right: 15px;">
+<!-- <img src="/public/img/Prof-Honda.png" alt="honda" style = "width: 178px; height: 225px; float: left; margin-right: 15px;"> -->
+<img src="/public/img/Prof-Honda.png" alt="honda" style = "width: 30%; float: left; margin-right: 15px;">
 <h4>メッセージ</h4>
-<p>コンピュータ知能が人の生活の一部になった今日、人の意思決定に寄りそう柔らかな「ソフトコンピューティング」が不可欠です。</p>
-<p>賢いコンピュータ知能を実現することで、人の生活を豊かにする知恵を探してみませんか。</p>
+<p>コンピュータ知能が人の生活の一部になった今日、人の意思決定に寄りそう柔らかな「ソフトコンピューティング」が不可欠です。賢いコンピュータ知能を実現することで、人の生活を豊かにする知恵を探してみませんか。</p>
 <div style="clear: both;"></div><!-- 改行を追加 -->
 
 <h4>准教授：生方 誠希</h4>
-<img src="/public/img/Prof-Ubukata.png" alt="ubukata" style = "width: 178px; height: 225px; float: left; margin-right: 15px;">
+<img src="/public/img/Prof-Ubukata.png" alt="ubukata" style = "width: 30%; float: left; margin-right: 15px;">
 <h4>メッセージ</h4>
-<p>急速に進化を続けるAIの分野を支えるのは，データ分析技術の基礎的な研究です。</p>
-<p>多様化する環境や社会に対応し，さらに発展を遂げるために，より柔軟なデータ分析技術を一緒につくりましょう。</p>
+<p>急速に進化を続けるAIの分野を支えるのは，データ分析技術の基礎的な研究です。多様化する環境や社会に対応し，さらに発展を遂げるために，より柔軟なデータ分析技術を一緒につくりましょう。</p>
 <div style="clear: both;"></div><!-- 改行を追加 -->
 
 <h4>教授：野津 亮</h4>
-<img src="/public/img/notsu.jpg" alt="notsu" style = "width: 155px; height: 225px; float: left; margin-right: 15px;">
+<img src="/public/img/notsu.jpg" alt="notsu" style = "width: 30%; float: left; margin-right: 15px;">
 <h4>メッセージ</h4>
 <p>多角的な視点と専門性を共に育みながら，一緒にソフトコンピューティング研究に挑んでいきましょう。</p>
-<div style="clear: both;"></div><!-- 改行を追加 -->
+<div style="clear: both;"></div>
 
 <h2>人と情報のソフトなインターフェース</h2>
 <p>ファジィ理論と多変量解析法との融合手法による，アンケートデータやインターネットコンテンツなどの大規模データベースからの知識発見，人間のあいまいな価値判断を含む感性情報の処理を実現するデータ解析法，認知モデルや感性モデルに基づいたエージェントシミュレーションや学習アルゴリズム，情報メディアの開発などの研究を行っています．</p>
