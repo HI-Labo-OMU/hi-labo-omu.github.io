@@ -89,6 +89,31 @@ code {
 	/*margin-left: 180px;*/
 	flex: 1 1 auto;
 	padding: 0px 30px;
+	background-color: #fff;
+    background-image:
+      repeating-linear-gradient(to bottom,
+        transparent 25px,
+        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
+        transparent 27px,  transparent 51px, 
+        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
+        transparent 53px,  transparent 77px, 
+        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
+        transparent 79px,  transparent 103px, 
+        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
+        transparent 105px,  transparent 129px, 
+        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px),
+    
+      repeating-linear-gradient(to right,
+        transparent 25px,
+        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
+        transparent 27px,  transparent 51px, 
+        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
+        transparent 53px,  transparent 77px, 
+        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
+        transparent 79px,  transparent 103px, 
+        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
+        transparent 105px,  transparent 129px, 
+        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px);
 }
 
 .sidebar {
@@ -230,14 +255,20 @@ p {
   margin-bottom: 0;
 }
 
-article h1,
+article h1 {
+	padding-left: 0.5em;
+	color: #4790bb;
+	border-left: 5px solid;
+	border-image: linear-gradient(to bottom, #4790bb 50%, #b0d7d5 50%) 1;
+	margin-bottom: 0;
+}
 article h2,
 article h3,
 article h4,
 article h5,
 article h6 {
 	/*font-family: '游ゴシック', 'Gelasio', 'Nanum Myeongjo', serif;*/
-	color: #333;
+	color: #2a5772;
   	margin-bottom: 0;
 }
 
@@ -269,22 +300,6 @@ header.home {
 	color: #111;
 	font-weight: bold;
 }
-
-/*
-大同の提案したデザイン
-.post-title {
-	padding: 0.4em 0.8em;
-	color: #4790bb;
-	background-color: #eaf4fb;
-	border: solid 2px #4790bb;
-	border-radius: 8px;
-	font-family: 'Verdana', sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-}
-	*/
 
 .post-date {
 	text-transform: uppercase;
