@@ -8,7 +8,7 @@ permalink: /labointroduction/
     <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
     <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
 </div>
-研究室では学生が思い思いに過ごしています。パソコンが一人
+研究室では学生が思い思いに過ごしています。昼食はここで食べることもあります。
 
 ## 学会
 
