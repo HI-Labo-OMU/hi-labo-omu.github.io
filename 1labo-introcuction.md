@@ -8,12 +8,9 @@ permalink: /labointroduction/
     <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
     <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
 </div>
-研究室にはものがいろいろ置いてあります。
+研究室では学生が思い思いに過ごしています。パソコンが一人
 
 ## 学会
-
-[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)  
-[IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="/public/img/20171012-120525-0.jpg" alt="" style="width: 48%; height: auto;">
@@ -24,6 +21,9 @@ permalink: /labointroduction/
     <img src="/public/img/S__3.jpg" alt="" style="width: 48%; height: auto;">
 </div>
 国内の学会だけでなく海外の学会に参加することもでき、多ければ、年に２，３回海外に行くこともできます。
+<br>
+写真の学会は
+[SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)、[IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
 
 ## 卒業式や飲み会等の行事
 <div style="display: flex; justify-content: space-between;">
