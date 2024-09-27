@@ -89,6 +89,31 @@ code {
 	/*margin-left: 180px;*/
 	flex: 1 1 auto;
 	padding: 0px 30px;
+	background-color: #fff;
+    background-image:
+      repeating-linear-gradient(to bottom,
+        transparent 25px,
+        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
+        transparent 27px,  transparent 51px, 
+        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
+        transparent 53px,  transparent 77px, 
+        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
+        transparent 79px,  transparent 103px, 
+        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
+        transparent 105px,  transparent 129px, 
+        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px),
+    
+      repeating-linear-gradient(to right,
+        transparent 25px,
+        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
+        transparent 27px,  transparent 51px, 
+        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
+        transparent 53px,  transparent 77px, 
+        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
+        transparent 79px,  transparent 103px, 
+        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
+        transparent 105px,  transparent 129px, 
+        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px);
 }
 
 .sidebar {
@@ -98,7 +123,7 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #222;
+	background-color: #4790bb;
 	color: #fff;
 }
 
@@ -119,7 +144,7 @@ code {
 
 .lead {
 	font-size: 120%;
-	color: #aaa;
+	color: #fff;
 }
 
 .sidebar-header {
@@ -134,18 +159,22 @@ code {
 	font-size: 100%;
 	/*font-family: '游ゴシック', 'Gelasio', 'Nanum Myeongjo', serif;*/
 	text-transform: uppercase;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #fff;
 	margin-bottom: 5px;
 }
 
 a.nav-item {
+	display: block;
 	font-size: 120%;
 	/*font-family: '游ゴシック', 'Gelasio', 'Nanum Myeongjo', serif;*/
 	text-transform: capitalize;
-	color: #aaa;
+	color: #fff;
 }
 
-a.nav-item:hover { color: #777; }
+a.nav-item:hover {
+	background-color: #2a5772;
+	text-decoration: none;
+}
 
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
@@ -226,14 +255,20 @@ p {
   margin-bottom: 0;
 }
 
-article h1,
+article h1 {
+	padding-left: 0.5em;
+	color: #4790bb;
+	border-left: 5px solid;
+	border-image: linear-gradient(to bottom, #4790bb 50%, #b0d7d5 50%) 1;
+	margin-bottom: 0;
+}
 article h2,
 article h3,
 article h4,
 article h5,
 article h6 {
 	/*font-family: '游ゴシック', 'Gelasio', 'Nanum Myeongjo', serif;*/
-	color: #333;
+	color: #2a5772;
   	margin-bottom: 0;
 }
 
@@ -253,7 +288,6 @@ article.home h4 a:hover {
 header.post-header {
 	padding: 50px 0px 10px 0px;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #ccc;
 	text-align: center;
 }
 
@@ -262,9 +296,15 @@ header.home {
 }
 
 .post-title {
-	font-size: 1.5em;
-	color: #111;
+	font-size: 2.0em;
 	font-weight: bold;
+	color: #fff;
+	background-color: #4790BB;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .post-date {
