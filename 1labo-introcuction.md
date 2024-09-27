@@ -3,14 +3,14 @@ layout: page
 title: 研究室紹介
 permalink: /labointroduction/
 ---
-## 研究室
+## **研究室**
 <div style="display: flex; justify-content: space-between;">
     <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
     <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
 </div>
 研究室では学生が思い思いに過ごしています。昼食はここで食べることもあります。
 
-## 学会
+## **学会**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="/public/img/20171012-120525-0.jpg" alt="" style="width: 48%; height: auto;">
@@ -25,10 +25,10 @@ permalink: /labointroduction/
 写真の学会は
 [SCIS&ISIS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://soft-cr.org/scis/2024/&ved=2ahUKEwisr7DA84SIAxWWj68BHT6SDRIQFnoECAgQAQ&usg=AOvVaw1I3nQyUM5TXF1intbgu0cG)、[IEEE](https://www.ipsj.or.jp/annai/kanrenlink/IEEE.html)
 
-## 卒業式や飲み会等の行事
+## **卒業式や飲み会等の行事**
 <div style="display: flex; justify-content: space-between;">
-    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 48%; height: auto;">
-    <img src="/public/img/graduate.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 40%; height: auto;">
+    <img src="/public/img/graduate.jpg" alt="" style="width: 40%; height: auto;">
 </div>
 
 コロナでイベントが減ってしまっていますがこれから増やしていく予定です。２０２４年は研究室全体での食事会を行いました。
