@@ -38,23 +38,23 @@ permalink: /labointroduction/
 
 <table style="border-collapse: collapse; border: solid 3px;">
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px;">学年</th>
+        <th style="padding: 4px 5px; border: solid 1px; background-color: #4790BB; color: #fff;">学年</th>
         <td style="padding: 4px 5px; border: solid 1px;">コメント</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px;">院生I</th>
+        <th style="padding: 4px 5px; border: solid 1px; background-color: #4790BB; color: #fff;">院生I</th>
         <td style="padding: 4px 5px; border: solid 1px;">教授の面倒見がよく、とても楽しい研究室です！</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px;">院生D</th>
+        <th style="padding: 4px 5px; border: solid 1px; background-color: #4790BB; color: #fff;">院生D</th>
         <td style="padding: 4px 5px; border: solid 1px;">コアタイムが無いので、研究とプライベートの両立がしやすい研究室だと思います！</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px;">院生K</th>
+        <th style="padding: 4px 5px; border: solid 1px; background-color: #4790BB; color: #fff;">院生K</th>
         <td style="padding: 4px 5px; border: solid 1px;">積極的に学会に参加することができます。</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px;">院生Y</th>
+        <th style="padding: 4px 5px; border: solid 1px; background-color: #4790BB; color: #fff;">院生Y</th>
         <td style="padding: 4px 5px; border: solid 1px;">研究活動を進めつつ、就活や自分のやりたいことにも時間を使えます！</td>
     </tr>
 </table>
