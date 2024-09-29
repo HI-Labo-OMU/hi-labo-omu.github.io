@@ -5,37 +5,24 @@ permalink: /jobhunting/
 ---
 <style>
 /* 全体の背景と文字色 */
-body {
-  background-color: #ffffff;
-  color: #1f2e3d;
-  font-family: 'Helvetica', sans-serif;
-}
-
 /* 見出しスタイル */
 h1 {
-  color: #6b92b9 !important;
-  font-size: 2em;
   border-bottom: 2px solid #6b92b9;
   padding-bottom: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 h2 {
-  color: #2a5772 !important;
-  font-size: 1.5em;
   margin-top: 10px;
 }
 h3 {
-  color: #2a5772 !important;
-  font-size: 1.25em;
-  margin-top: 20px;
+  margin-top: 10px;
 }
-
-/* リストのスタイル */
-
-li {
+section.job-year h2 {
+  color: #2a5772;
+  font-size: 1.5em;
   margin-bottom: 10px;
+  text-align: center; /* 中央揃えにして視覚的に目立たせる */
 }
-
 /* セクション全体に枠と背景色を追加 */
 section.job-year {
   background-color: #f8f9fa; /* 背景色を淡いグレーに */
@@ -46,17 +33,11 @@ section.job-year {
 }
 
 /* 見出し（年度）を強調 */
-section.job-year h2 {
-  color: #2a5772;
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  text-align: center; /* 中央揃えにして視覚的に目立たせる */
-}
 /* リストアイテムを3列に並べる */
 ul.job-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* 各リストアイテム間のスペース */
+  gap: 0px; /* 各リストアイテム間のスペース */
   padding: 0;
   margin: 0;
   list-style-type: none; /* リストマーカーを消す */
@@ -77,12 +58,10 @@ ul.job-list li {
   min-height: 50px; /* アイテムの最小高さを設定して揃える */
 }
 
-/* ダミーアイテムを非表示にする */
 ul.job-list li.dummy {
   visibility: hidden;
-  flex: 1 1 calc(33.33% - 20px); /* 同じ幅を持たせて列を揃える */
- padding: 15px;
-  margin: 0 5px 10px 5px; /* 左右に少し余白を追加 */
+  padding: 15px;
+  margin: 0 5px 10px 5px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
@@ -90,42 +69,84 @@ ul.job-list li.dummy {
   box-sizing: border-box; /* パディングを含めてサイズ計算 */
 }
 
+/* PC用のスタイル */
+@media (min-width: 1024px) {
+  ul.job-list li.dummy {
+    flex: 1 1 calc(33.33% - 20px); /* 3列表示用の幅 */
+  }
+}
+
+/* タブレット用のスタイル */
+@media (max-width: 1023px) {
+  ul.job-list li.dummy {
+    flex: 1 1 calc(50% - 20px); /* 2列表示用の幅 */
+  }
+}
+
+.dummy {
+  visibility: hidden;
+}
+
 .intro {
     margin-top: 20px; /* 上に20pxのマージンを追加 */
     margin-bottom: 20px; /* 下に20pxのマージンを追加 */
 }
 
+@media screen and (max-width: 600px) {
+  ul.job-list li {
+    flex: 1 1 100%; /* 1列表示 */
+  }
+}
+
+/* タブレット対応: 幅が900px以下の場合 */
+@media screen and (max-width: 900px) {
+  ul.job-list li {
+    flex: 1 1 calc(50% - 20px); /* 2列表示 */
+  }
+}
+ul.job-list li {
+  word-wrap: break-word; /* 単語全体で改行を行う */
+  word-break: keep-all;  /* 日本語のような全角文字は単語の途中で改行しない */
+  hyphens: auto;         /* 必要に応じてハイフンを追加して改行を整える（ブラウザ依存） */
+}
+
+ul.job-list {
+  display: flex; /* GridからFlexに変更 */
+  flex-wrap: wrap; /* 複数行に折り返し */
+  gap: 10px; /* 各リストアイテム間のスペース */
+}
+
+ul.job-list li {
+  flex: 1 1 calc(33.33% - 20px); /* PC向けに3列の幅を設定 */
+}
+
+/* PC用のスタイル */
+@media (min-width: 1024px) {
+  ul.job-list li {
+    flex: 1 1 calc(33.33% - 20px); /* 3列に並べる */
+  }
+}
+
+/* タブレット用のスタイル */
+@media (max-width: 1023px) {
+  ul.job-list li {
+    flex: 1 1 calc(50% - 20px); /* 2列に並べる */
+  }
+}
+
+/* スマートフォン用のスタイル */
+
 
 </style>
+
 
 # 大学院生の就職活動スケジュール
 
 <p class="intro">当研究室では研究だけでなく就職活動にも力を入れています。<br>以下は学生が修士1年次から修士2年次にかけての就活スケジュールです。</p>
 
-## 修士1年次
-
-### 春（4月～6月）
-- **就活イベント参加**: 大学の就職ガイダンスや企業説明会に参加します。
-- **インターンシップの応募**: 夏季インターンシップに向けてエントリーシートを作成し、応募します。
-
-### 夏（7月～9月）
-- **インターンシップ参加**: 夏季インターンシップに参加し、企業での実務経験を積みます。
-
-### 秋（10月～12月）
-- **冬季インターンシップの応募**: 冬季インターンシップに向けてエントリーシートを作成し、応募します。
-- **早期選考参加**: 夏季インターンシップ参加者に対して、秋に早期選考が行われることがあります。
-
-### 冬（1月～3月）
-- **冬季インターンシップ参加**: 冬季インターンシップに参加し、企業での実務経験を積みます。
-- **早期選考参加**: 冬季インターンシップ参加者に対して、冬に早期選考が行われることがあります。
-- **エントリー開始**: 本選考のエントリーを開始します。
-- **内々定獲得**: 秋冬の早期選考で合格した場合、この時期に内々定が出ることがあります。
-
-## 修士2年次
-
-### 春（4月～6月）
-- **本選考開始**: 一次選考（書類選考、筆記試験、ウェブテストなど）を開始します。
-- **内々定獲得**: 一部の企業はこの時期に本選考を経て内々定を出します。
+<div style="text-align: center;">
+<img src="/public/img/schedules.png" alt="就職活動スケジュール" style="width: 100%; max-width: 600px;">
+</div>
 
 <p class="intro">学生たちはこのスケジュールに従い、就職活動、授業、研究を両立しています。<br>
 また研究室内ではエントリーシート添削などのサポートも受けられます。
@@ -133,7 +154,6 @@ ul.job-list li.dummy {
 # 大学院生の就職先
 
 <p class="intro">次に当研究室の大学院生の就職先を紹介します。</p>
-
 
 <section class="job-year">
   <h2>2023年度</h2>
@@ -158,7 +178,6 @@ ul.job-list li.dummy {
     <li>オプテージ</li>
     <li>レンゴー</li>
     <li>MonotaRO</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -170,7 +189,6 @@ ul.job-list li.dummy {
     <li>ヤフー</li>
     <li>サイバーエージェント (2)</li>
     <li>京セラドキュメントソリューションズ</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -181,8 +199,7 @@ ul.job-list li.dummy {
     <li>パナソニック</li>
     <li>シャープ (2)</li>
     <li>イーソル</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
+
   </ul>
 </section>
 
@@ -193,8 +210,6 @@ ul.job-list li.dummy {
     <li>NTT西日本 (2)</li>
     <li>パナソニック (2)</li>
     <li>ダイキン工業</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -205,8 +220,7 @@ ul.job-list li.dummy {
     <li>ダイキン工業</li>
     <li>住友電気工業 (2)</li>
     <li>シャープ</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
+
   </ul>
 </section>
 
@@ -217,8 +231,6 @@ ul.job-list li.dummy {
     <li>本田技研工業</li>
     <li>ダイキン工業</li>
     <li>シンプレクス</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -227,7 +239,6 @@ ul.job-list li.dummy {
   <ul class="job-list">
     <li>三菱電機</li>
     <li>長谷川鉄工</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -238,8 +249,6 @@ ul.job-list li.dummy {
     <li>NTT西日本</li>
     <li>日本電気</li>
     <li>野村総合研究所</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -275,7 +284,6 @@ ul.job-list li.dummy {
     <li>三菱東京UFJ</li>
     <li>ダイキン工業</li>
     <li>データスタジアム</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -284,7 +292,6 @@ ul.job-list li.dummy {
   <ul class="job-list">
     <li>朝日新聞社</li>
     <li>NTTコミュニケーションズ</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -293,7 +300,7 @@ ul.job-list li.dummy {
   <ul class="job-list">
     <li>パナソニック</li>
     <li>シャープ</li>
-<li class="dummy"></li>
+
   </ul>
 </section>
 
@@ -314,7 +321,6 @@ ul.job-list li.dummy {
     <li>シャープ</li>
     <li>日本電気</li>
     <li>デンソー</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -334,8 +340,6 @@ ul.job-list li.dummy {
     <li>関西電力</li>
     <li>大和証券SMBC</li>
     <li>オリエンタルランド</li>
-<li class="dummy"></li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -368,7 +372,6 @@ ul.job-list li.dummy {
     <li>三井住友海上火災</li>
     <li>日本IBM</li>
     <li>KDDI</li>
-<li class="dummy"></li>
   </ul>
 </section>
 
@@ -383,3 +386,75 @@ ul.job-list li.dummy {
     <li>日本電気</li>
   </ul>
 </section>
+
+<script>
+function addDummies() {
+  const jobLists = document.querySelectorAll('.job-year'); // すべてのjob-yearセクションを取得
+
+  jobLists.forEach(jobYear => {
+    const yearHeading = jobYear.querySelector('h2').innerText; // 年度を取得
+    const jobList = jobYear.querySelector('.job-list'); // リストを取得
+    const items = jobList.querySelectorAll('li:not(.dummy)'); // ダミーを除いたリスト項目を取得
+    if (items.length === 0) return; // アイテムがない場合はスキップ
+
+    const screenWidth = window.innerWidth;
+    const jobListWidth = jobList.offsetWidth;
+
+    // 2021年度の場合はダミーを追加しない
+    if (yearHeading.includes('2021年度')) {
+      console.log('2021年度なのでダミーを追加しません');
+      return;
+    }
+
+    // 最初のアイテムの幅を取得
+    const firstItem = items[0];
+    const itemWidth = firstItem.offsetWidth;
+
+    // アイテムの幅に基づき、1行に収まるアイテム数（列数）を計算
+    const itemsPerRow = Math.floor(jobListWidth / itemWidth);
+
+    if (itemsPerRow < 1) return; // 列数が1未満なら処理しない
+
+    // 各行ごとのアイテムの高さを確認し、行数を計算
+    let currentTop = items[0].getBoundingClientRect().top;
+    let rowsNeeded = 1;
+
+    items.forEach(item => {
+      const itemTop = item.getBoundingClientRect().top;
+
+      // アイテムが新しい行に移動した場合
+      if (itemTop !== currentTop) {
+        rowsNeeded++; // 行数を増やす
+        currentTop = itemTop; // 新しい行の高さに更新
+      }
+    });
+
+    // 最後の行のアイテム数を確認
+    const remainingItemsInLastRow = items.length % itemsPerRow;
+    const dummyCount = remainingItemsInLastRow === 0 ? 0 : itemsPerRow - remainingItemsInLastRow;
+
+    // 既存のダミー項目を削除
+    jobList.querySelectorAll('.dummy').forEach(dummy => dummy.remove());
+
+    // 必要な数だけダミー項目を追加
+    if (dummyCount > 0 && dummyCount < itemsPerRow) { // ダミーが行に収まるように制限
+      for (let i = 0; i < dummyCount; i++) {
+        const dummyItem = document.createElement('li');
+        dummyItem.classList.add('dummy');
+        dummyItem.style.width = itemWidth + 'px'; // ダミーの幅を他のアイテムと揃える
+        dummyItem.style.visibility = 'hidden'; // ダミーを隠してレイアウトのためだけに追加
+        jobList.appendChild(dummyItem);
+      }
+    }
+
+    console.log(`スクリーン幅: ${screenWidth}, リスト項目数: ${items.length}, 列数: ${itemsPerRow}, 行数: ${rowsNeeded}, ダミー数: ${dummyCount}`);
+  });
+}
+
+// ウィンドウリサイズ時にダミー項目を調整
+window.addEventListener('resize', addDummies);
+
+// ページロード時にダミー項目を調整
+document.addEventListener('DOMContentLoaded', addDummies);
+
+</script>
