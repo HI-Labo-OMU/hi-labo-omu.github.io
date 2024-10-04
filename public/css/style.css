@@ -339,6 +339,23 @@ footer {
 }
 
 
+/*10/4追記部分*/
+.hamburger {
+	display: none; /* デフォルトで非表示 */
+	flex-direction: column;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.hamburger .bar {
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+	margin: 3px 0;
+	transition: 0.3s;
+}  
+
+
 @media (max-width: 576px) {
 	article {
 		font-size: 0.9em;
@@ -359,13 +376,34 @@ footer {
 		height: auto;
 	}
 
+	/*
 	.sidebar-nav {
 		margin: 0px;
+	}
+	*/
+
+	/*10/4追記部分*/
+	.sidebar-nav {
+		display: none;
+	}
+
+	.sidebar-nav.active {
+		display: block;
+	}
+
+	.hamburger {
+		display: flex;
+		cursor: pointer;
+   		flex-direction: column;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+    	z-index: 10;
 	}
 
 	.sidebar-item {
 		flex: 1 1 auto;
-	}
+	}	
 
 	.sidebar-header {
 		margin-bottom: 0px;
