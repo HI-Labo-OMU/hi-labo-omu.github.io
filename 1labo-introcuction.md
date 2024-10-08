@@ -61,10 +61,13 @@ permalink: /labointroduction/
 </table>
 
 <style>
-    @media (max-width: 768px) {
-        div img {
-            width: 100%;
-            margin-bottom: 10px;
-        }
+@media (max-width: 768px) {
+    .lab-intro img,
+    .conference img,
+    .events img {
+        width: 100%;
+        margin-bottom: 10px;
     }
+}
+
 </style>
