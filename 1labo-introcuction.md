@@ -46,15 +46,15 @@ permalink: /labointroduction/
         <td style="padding: 4px 5px; border: solid 1px; width: 85%;">教授の面倒見がよく、とても楽しい研究室です！</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生D</th>
+        <th style="padding: 4px 5px; border: solid 1px; width: 25px;">院生D</th>
         <td style="padding: 4px 5px; border: solid 1px; width: 85%;">コアタイムが無いので、研究とプライベートの両立がしやすい研究室だと思います！</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生K</th>
+        <th style="padding: 4px 5px; border: solid 1px; width: 15px;">院生K</th>
         <td style="padding: 4px 5px; border: solid 1px; width: 85%;">積極的に学会に参加することができます。</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生Y</th>
+        <th style="padding: 4px 5px; border: solid 1px; width: 20px">院生Y</th>
         <td style="padding: 4px 5px; border: solid 1px; width: 85%;">研究活動を進めつつ、就活や自分のやりたいことにも時間を使えます！</td>
     </tr>
 </table>
