@@ -27,8 +27,8 @@ permalink: /labointroduction/
 
 ## 卒業式や飲み会等の行事
 <div style="display: flex; justify-content: space-between;">
-    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 44%; height: auto;">
-    <img src="/public/img/graduate.jpg" alt="" style="width: 44%; height: auto;">
+    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 100%; height: auto;">
+    <img src="/public/img/graduate.jpg" alt="" style="width: 100%; height: auto;">
 </div>
 
 コロナでイベントが減ってしまっていますがこれから増やしていく予定です。２０２４年は研究室全体での食事会を行いました。
