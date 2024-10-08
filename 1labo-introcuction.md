@@ -26,9 +26,9 @@ permalink: /labointroduction/
 国内の学会だけでなく海外の学会に参加することもでき、多ければ、年に２，３回海外に行くこともできます。
 
 ## 卒業式や飲み会等の行事
-<div style="display: flex; justify-content: space-between;">
-    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 100%; height: auto;">
-    <img src="/public/img/graduate.jpg" alt="" style="width: 100%; height: auto;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 46%; height: auto; max-height: 100%;">
+    <img src="/public/img/graduate.jpg" alt="" style="width: 46%; height: auto; max-height: 100%;">
 </div>
 
 コロナでイベントが減ってしまっていますがこれから増やしていく予定です。２０２４年は研究室全体での食事会を行いました。
