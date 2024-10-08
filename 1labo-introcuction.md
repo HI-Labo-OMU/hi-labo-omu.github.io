@@ -5,8 +5,8 @@ permalink: /labointroduction/
 ---
 ## 研究室
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-    <img src="/public/img/lab1.jpg" alt="" style="width: 100%; height: auto;">
-    <img src="/public/img/lab2.jpg" alt="" style="width: 100%; height: auto;">
+    <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
 </div>
 研究室にはものがいろいろ置いてあります。
 
@@ -27,8 +27,8 @@ permalink: /labointroduction/
 
 ## 卒業式や飲み会等の行事
 <div style="display: flex; justify-content: space-between;">
-    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 46%; height: auto;">
-    <img src="/public/img/graduate.jpg" alt="" style="width: 46%; height: auto;">
+    <img src="/public/img/gradCeremony.jpg" alt="" style="width: 44%; height: auto;">
+    <img src="/public/img/graduate.jpg" alt="" style="width: 44%; height: auto;">
 </div>
 
 コロナでイベントが減ってしまっていますがこれから増やしていく予定です。２０２４年は研究室全体での食事会を行いました。
@@ -62,11 +62,8 @@ permalink: /labointroduction/
 
 <style>
 @media (max-width: 768px) {
-    .lab-intro img,
-    .conference img,
-    .events img {
-        width: 100%;
-        margin-bottom: 10px;
+    div img {
+        width: 100% !important;
     }
 }
 
