@@ -5,49 +5,29 @@ permalink: /student-research1/
 ---
 
 <style>
-  body {
-    background-color: #fff;
-    background-image:
-      repeating-linear-gradient(to bottom,
-        transparent 25px,
-        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
-        transparent 27px,  transparent 51px, 
-        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
-        transparent 53px,  transparent 77px, 
-        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
-        transparent 79px,  transparent 103px, 
-        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
-        transparent 105px,  transparent 129px, 
-        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px),
-    
-      repeating-linear-gradient(to right,
-        transparent 25px,
-        rgba(0, 0, 0, 0.04) 26px,  rgba(0, 0, 0, 0.04) 26px,
-        transparent 27px,  transparent 51px, 
-        rgba(0, 0, 0, 0.04) 52px,  rgba(0, 0, 0, 0.04) 52px,
-        transparent 53px,  transparent 77px, 
-        rgba(0, 0, 0, 0.04) 78px,  rgba(0, 0, 0, 0.04) 78px,
-        transparent 79px,  transparent 103px, 
-        rgba(0, 0, 0, 0.04) 104px,  rgba(0, 0, 0, 0.04) 104px,
-        transparent 105px,  transparent 129px, 
-        rgba(0, 0, 0, 0.04) 130px,  rgba(0, 0, 0, 0.04) 130px);
-  }
-
-  .heading1 {
-    padding-left: 0.5em;
-    color: #4790bb;
-    border-left: 5px solid;
-    border-image: linear-gradient(to bottom, #4790bb 50%, #b0d7d5 50%) 1;
-    margin-bottom: 0;
-  }
-
   .research-content {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  /*スマホ用のスタイル*/
+  @media (max-width: 480px) {
+    .student-research-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  /*タブレット用のスタイル*/
+  @media (max-width: 1200px) {
+    .student-research-img {
+      width: 75%;
+      height: auto;
+    }
+  }
 </style>
 
-<h1 class="heading1">
+<h1>
 効率よく推薦を行うことができる推薦システムの研究をしています
 </h1>
 <p class="research-content">
@@ -55,9 +35,9 @@ YouTubeの「あなたへのおすすめ」、Amazonの「この商品を買っ�
 </p>
 
 {: align="center"}
-<img src="/public/img/Amazon&YouTube.png" width="50%">
+<img class="student-research-img" src="/public/img/Amazon&YouTube.png" width="50%">
 
-<h1 class="heading1">
+<h1>
 協調フィルタリングとは
 </h1>
 <p class="research-content">
@@ -65,9 +45,9 @@ YouTubeの「あなたへのおすすめ」、Amazonの「この商品を買っ�
 </p>
 
 {: align="center"}
-<img src="/public/img/CF.png" width="40%">
+<img class="student-research-img" src="/public/img/CF.png" width="40%">
 
-<h1 class="heading1">
+<h1>
 クラスタリングとは
 </h1>
 <p class="research-content">
@@ -75,16 +55,16 @@ YouTubeの「あなたへのおすすめ」、Amazonの「この商品を買っ�
 </p>
 
 {: align="center"}
-<img src="/public/img/Clustering.png" width="50%">
+<img class="student-research-img" src="/public/img/Clustering.png" width="50%">
 
-<h1 class="heading1">
+<h1>
 協調フィルタリングとクラスタリングを組み合わせて、推薦精度の向上を目指す
 </h1>
 <p class="research-content">
 研究では、上記の協調フィルタリングとクラスタリングを組み合わせて、より推薦精度の高い推薦システムの構築を目指しています。YoutubeやAmazonのユーザは、全員が同じような嗜好を持っているわけではありません。従来の協調フィルタリングのモデルでは、全てのユーザに対して同じモデルを考えていました。これを受けて研究では、まずユーザを、嗜好が似ているクラスターに分類します。そして、クラスターごとに協調フィルタリングのモデルを考えます。これにより、クラスターごとの嗜好に特化したモデルを考えることができ、より良質なコンテンツをユーザに提供することができます。
 </p>
 
-<h1 class="heading1">
+<h1>
 論文はこちら
 </h1>
 [＞＞k-Means型スイッチングFactorization Machineの一検討](https://www.jstage.jst.go.jp/article/jacc/65/0/65_1494/_article/-char/ja/)  
