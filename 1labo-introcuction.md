@@ -38,24 +38,24 @@ permalink: /labointroduction/
 
 <table style="border-collapse: collapse; border: solid 3px; width: 100%;">
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 20%;">学年</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 80%;">コメント</td>
+        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">学年</th>
+        <td style="padding: 4px 5px; border: solid 1px; width: 85%;">コメント</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 20%;">院生I</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 80%;">教授の面倒見がよく、とても楽しい研究室です！</td>
+        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生I</th>
+        <td style="padding: 4px 5px; border: solid 1px; width: 85%;">教授の面倒見がよく、とても楽しい研究室です！</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 20%;">院生D</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 80%;">コアタイムが無いので、研究とプライベートの両立がしやすい研究室だと思います！</td>
+        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生D</th>
+        <td style="padding: 4px 5px; border: solid 1px; width: 85%;">コアタイムが無いので、研究とプライベートの両立がしやすい研究室だと思います！</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 20%;">院生K</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 80%;">積極的に学会に参加することができます。</td>
+        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生K</th>
+        <td style="padding: 4px 5px; border: solid 1px; width: 85%;">積極的に学会に参加することができます。</td>
     </tr>
     <tr>
-        <th style="padding: 4px 5px; border: solid 1px; width: 20%;">院生Y</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 80%;">研究活動を進めつつ、就活や自分のやりたいことにも時間を使えます！</td>
+        <th style="padding: 4px 5px; border: solid 1px; width: 15%;">院生Y</th>
+        <td style="padding: 4px 5px; border: solid 1px; width: 85%;">研究活動を進めつつ、就活や自分のやりたいことにも時間を使えます！</td>
     </tr>
 </table>
 
