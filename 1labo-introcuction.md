@@ -5,8 +5,8 @@ permalink: /labointroduction/
 ---
 ## 研究室
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-    <img src="/public/img/lab1.jpg" alt="" style="width: 48%; height: auto;">
-    <img src="/public/img/lab2.jpg" alt="" style="width: 48%; height: auto;">
+    <img src="/public/img/lab1.jpg" alt="" style="width: 100%; height: auto;">
+    <img src="/public/img/lab2.jpg" alt="" style="width: 100%; height: auto;">
 </div>
 研究室にはものがいろいろ置いてあります。
 
