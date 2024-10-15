@@ -21,7 +21,7 @@
 	-->
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}
-	    {% if node.title != null and node.title != "About" and node.title != "トップページ" and node.title != "pygments-css" and node.title != "学生の研究➀" and node.title != "学生の研究➁" and node.title != "学生の研究➂" %}
+	    {% if node.title != null and node.title != "About" and node.title != "人間情報システム研究室" and node.title != "pygments-css" and node.title != "学生の研究➀" and node.title != "学生の研究➁" and node.title != "学生の研究➂" %}
 	      {% if node.layout == "page" %}
 			<li>
 				<a class="nav-item" href="{{ node.url }}">
