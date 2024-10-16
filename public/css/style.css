@@ -122,7 +122,7 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #4790bb;
+	background-color: #2A5772;
 	color: #fff;
 }
 
@@ -178,7 +178,7 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-	background-color: #2a5772;
+	/*background-color: #2a5772;*/
 	text-decoration: none;
 }
 
@@ -380,7 +380,7 @@ footer {
 	.sidebar {
 		/*スマホ版のときスライドバーを上部に固定*/
 		position: fixed;
-		top: 0;
+		top: 0px;
 		width: 100%;
 		/*スマホ版のときスライドバーを上部に固定*/
 
@@ -400,14 +400,16 @@ footer {
 	.sidebar-nav {
 		/*display: none;*/
 		position: fixed;
-		top: 20px;
+		top: -20px;
 		right: -200px;
 		width: 200px;
 		height: 100%;
-		background-color: #4790bb;
+		background-color: #2A5772;
 		color: white;
 		flex-direction: column;
 		justify-content: flex-start;
+		/*justify-content: center;*/
+		padding-top: 50px;
 		align-items: center;
 		transition: transform 0.3s ease;
 		display: flex;
