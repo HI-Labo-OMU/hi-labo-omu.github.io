@@ -5,11 +5,6 @@ permalink: /qa/
 ---
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #FFFFFF; /* 全体の背景を白に */
-  }
   
   .qa-item {
     background-color: #F9F9F9; /* 各QAの背景色を淡いグレーに */
