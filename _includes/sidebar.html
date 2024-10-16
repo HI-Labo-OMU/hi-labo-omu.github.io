@@ -9,6 +9,13 @@
 				<use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}" />
 			</svg></a></li>
 	{%- endif -%}
+	<!--ハンバーガーアイコン追加　2024.10.04-->
+	<div class="hamburger" onclick="toggleMenu()">
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+	</div>
+	<!--ハンバーガーアイコン追加　ここまで-->
 </div>
 
 <div class="sidebar-item sidebar-nav">
@@ -33,6 +40,18 @@
 	  {% endfor %}
 	</ul>
 </div>
+
+<script>
+function toggleMenu() {
+	/*
+    const nav = document.querySelector('.sidebar-nav');
+    nav.classList.toggle('active');
+	*/
+	const nav = document.querySelector('.sidebar-nav');
+    nav.classList.toggle('open');
+}
+</script>
+	
 
 <!--
 <div class="sidebar-item sidebar-nav">

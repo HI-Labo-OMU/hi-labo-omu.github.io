@@ -117,13 +117,12 @@ code {
 }
 
 .sidebar {
-	/*position: fixed;*/
 	display: flex;
 	flex-flow: column nowrap;
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #4790bb;
+	background-color: #2A5772;
 	color: #fff;
 }
 
@@ -168,11 +167,18 @@ a.nav-item {
 	font-size: 120%;
 	/*font-family: '游ゴシック', 'Gelasio', 'Nanum Myeongjo', serif;*/
 	text-transform: capitalize;
+
+	/* メニュータイトルの行間調整*/
+	line-height: 2.0; 
+
+	/*メニュータイトルに下線を引く*/
+	text-decoration: underline;
+
 	color: #fff;
 }
 
 a.nav-item:hover {
-	background-color: #2a5772;
+	/*background-color: #2a5772;*/
 	text-decoration: none;
 }
 
@@ -338,14 +344,33 @@ footer {
 	color: #ccc;
 }
 
+.hamburger {
+	display: none; /* デフォルトで非表示 */
+	flex-direction: column;
+	cursor: pointer;
+	margin: 10px;
+}
 
-@media (max-width: 576px) {
+.hamburger .bar {
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+	margin: 3px 0;
+	transition: 0.3s;
+}  
+
+
+@media (max-width: 768px) {
 	article {
 		font-size: 0.9em;
 		line-height: 1.5;
 	}
 
 	.content {
+		/*スライドバー分の余白を上部に確保*/
+		margin-top: 80px;
+		/*スライドバー分の余白を上部に確保*/
+
 		padding: 0px;
 	}
 	.container {
@@ -353,19 +378,72 @@ footer {
 	}
 
 	.sidebar {
+		/*スマホ版のときスライドバーを上部に固定*/
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		/*スマホ版のときスライドバーを上部に固定*/
+
 		font-size: 0.8em;
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
 	}
 
+	/*
 	.sidebar-nav {
 		margin: 0px;
+	}
+	*/
+
+	/*10/4追記部分*/
+	.sidebar-nav {
+		/*display: none;*/
+		position: fixed;
+		top: -20px;
+		right: -200px;
+		width: 200px;
+		height: 100%;
+		background-color: #2A5772;
+		color: white;
+		flex-direction: column;
+		justify-content: flex-start;
+		/*justify-content: center;*/
+		padding-top: 50px;
+		align-items: center;
+		transition: transform 0.3s ease;
+		display: flex;
+	}
+
+	/*
+	.sidebar-nav.active {
+		display: block;
+	}
+	*/
+
+	/* メニューが表示されるときのスタイル */
+	.sidebar-nav.open {
+	transform: translateX(-100%);
+	}
+
+	a.nav-item {
+		font-size: 160%; /* メニューのフォントサイズを大きく設定 */
+		margin: 10px 0; /* 上下に余白を追加 */
+	}
+
+	.hamburger {
+		display: flex;
+		cursor: pointer;
+   		flex-direction: column;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+    	z-index: 10;
 	}
 
 	.sidebar-item {
 		flex: 1 1 auto;
-	}
+	}	
 
 	.sidebar-header {
 		margin-bottom: 0px;
