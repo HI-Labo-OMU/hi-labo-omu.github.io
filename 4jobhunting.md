@@ -7,7 +7,6 @@ permalink: /jobhunting/
 /* 全体の背景と文字色 */
 /* 見出しスタイル */
 h1 {
-  border-bottom: 2px solid #6b92b9;
   padding-bottom: 10px;
   margin-top: 10px;
 }
