@@ -11,7 +11,7 @@ permalink: /student-research1/
   }
 
   /*スマホ用のスタイル*/
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .student-research-img {
       width: 100%;
       height: auto;
@@ -19,7 +19,7 @@ permalink: /student-research1/
   }
 
   /*タブレット用のスタイル*/
-  @media (max-width: 1200px) {
+  @media (max-width: 1024px) {
     .student-research-img {
       width: 75%;
       height: auto;

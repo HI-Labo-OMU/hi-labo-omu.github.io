@@ -9,6 +9,22 @@ permalink: /student-research2/
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  /*スマホ用のスタイル*/
+  @media (max-width: 768px) {
+    .student-research-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  /*タブレット用のスタイル*/
+  @media (max-width: 1024px) {
+    .student-research-img {
+      width: 75%;
+      height: auto;
+    }
+  }
 </style>
 
 <h1 class="heading1">
