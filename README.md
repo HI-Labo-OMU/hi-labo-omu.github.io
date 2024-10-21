@@ -58,5 +58,5 @@ date_format: "%Y-%M-%D" //and date format.
 ### 5.2 コマンドプロンプトにて，`bundle install`を実行する．
 
 以上で環境構築は終了です．`bundle exec jekyll serve`を実行することによりサーバが起動し，「http://127.0.0.1:4000/」でサイトを閲覧できます．
-Jekyllの使い方については，[こちら](https://e-joint.jp/blog/329)を参考にしてください．
+Jekyllの使い方については，[こちら](https://e-joint.jp/blog/329)を参考にして下さい．
 
