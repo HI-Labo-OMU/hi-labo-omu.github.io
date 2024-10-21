@@ -54,9 +54,8 @@ date_format: "%Y-%M-%D" //and date format.
 参考：https://jekyllrb-ja.github.io/docs/installation/windows/
 
 ## 5. GitHib PagesにてJekyllを使用できるように設定
-### 5.1 ローカルにmasterブランチをpull
-### 5.2 コマンドプロンプトにて，`bundle install`を実行する．
+ローカルにmasterブランチをpullした後に，コマンドプロンプトにて，`bundle install`を実行する．
 
-以上で環境構築は終了です．`bundle exec jekyll serve`を実行することによりサーバが起動し，「http://127.0.0.1:4000/」でサイトを閲覧できます．
+以上で環境構築は終了です．`bundle exec jekyll serve`を実行することによりサーバが起動し，`http://127.0.0.1:4000/`でサイトを閲覧できます．
 Jekyllの使い方については，[こちら](https://e-joint.jp/blog/329)を参考にして下さい．
 
