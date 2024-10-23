@@ -50,10 +50,10 @@ date_format: "%Y-%M-%D" //and date format.
 
 ## 4. Jekyllのインストール
 コマンドプロンプトにて，`gem install jekyll bundler `を実行する．
-`jekyll -v`でバージョン情報が出力されれば，インストールされている．
+`jekyll -v`でバージョン情報が出力されれば，インストールされている．  
 参考：https://jekyllrb-ja.github.io/docs/installation/windows/
 
-## 5. GitHib PagesにてJekyllを使用できるように設定
+## 5. GitHub PagesにてJekyllを使用できるように設定
 ローカルにmasterブランチをpullした後に，コマンドプロンプトにて，`bundle install`を実行する．
 
 以上で環境構築は終了です．`bundle exec jekyll serve`を実行することによりサーバが起動し，`http://127.0.0.1:4000/`でサイトを閲覧できます．
