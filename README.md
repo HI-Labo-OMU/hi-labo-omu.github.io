@@ -59,3 +59,6 @@ date_format: "%Y-%M-%D" //and date format.
 以上で環境構築は終了です．`bundle exec jekyll serve`を実行することによりサーバが起動し，`http://127.0.0.1:4000/`でサイトを閲覧できます．
 Jekyllの使い方については，[こちら](https://e-joint.jp/blog/329)を参考にして下さい．
 
+
+# ニュースの投稿方法
+/_postsに、"YYYY-MM-DD-title.md"の形式で投稿できます。2025-02-25-start.mdを参考にしてみてください。
