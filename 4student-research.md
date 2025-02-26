@@ -49,12 +49,15 @@ YouTubeの「あなたへのおすすめ」、Amazonの「この商品を買っ�
   詳しく見る
 </button>
 
+<!--
 # 野津先生担当の学生の研究を記載予定です
 <p class="research-summary">
 野津先生担当の学生の研究を記載予定です。
 </p>
 
+
 {: align="center"}
 <button class="button_research" onclick="window.location.href='/student-research3/';">
   詳しく見る
 </button>
+-->
