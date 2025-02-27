@@ -43,7 +43,7 @@ permalink: /labointroduction/
     </tr>
     <tr>
         <th style="padding: 4px 5px; border: solid 1px; width: 18%;">院生I</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 82%;">教授の面倒見がよく、とても楽しい研究室です！</td>
+        <td style="padding: 4px 5px; border: solid 1px; width: 82%;">先生が親身に指導してくださり、とても楽しい研究室です！</td>
     </tr>
     <tr>
         <th style="padding: 4px 5px; border: solid 1px; width: 18%;">院生D</th>
@@ -55,7 +55,7 @@ permalink: /labointroduction/
     </tr>
     <tr>
         <th style="padding: 4px 5px; border: solid 1px; width: 18%;">院生Y</th>
-        <td style="padding: 4px 5px; border: solid 1px; width: 82%;">研究活動を進めつつ、就活や自分のやりたいことにも時間を使えます！</td>
+        <td style="padding: 4px 5px; border: solid 1px; width: 82%;">研究活動を優先しながらも効率的に時間を使うことで、就活や自分のやりたいことにも時間を使えます！</td>
     </tr>
 </table>
 
