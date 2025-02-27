@@ -66,7 +66,7 @@ permalink: /member/
     }
 </style>
 
-<img src="/public/img/Prof-Honda.png">
+<img src="/public/img/Prof-Honda.jpg">
 
 <p style="font-size: 32px">本多 克宏</p>
 
@@ -119,67 +119,6 @@ permalink: /member/
         </tr>
         <tr>
             <td><a href="https://miraibook.jp/researcher/101" target="_self">河合塾　みらいぶっく学問・大学なび</a></td>
-        </tr>
-    </table>
-</div>
-
-<br>
-
----
-
-<img src="/public/img/Prof-Notsu.png">
-
-<p style="font-size: 32px">野津 亮</p>
-
-<p style="font-size: 24px">教授</p>
-<br>
-
-<div class="table-container">
-    <table>
-        <tr>
-            <th>研究内容</th>
-            <td>人が持つ認知の仕組みをヒントに, 効果的な最適化・学習アルゴリズムをコンピュータシミュレーションによって確認し, 人に優しい環境・AIを探求しています.</td>
-        </tr>
-        <tr>
-            <th>研究キーワード</th>
-            <td>強化学習, 適応アルゴリズム</td>
-        </tr>
-        <tr>
-            <th>研究者紹介リンク1</th>
-            <td><a href="https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html" target="_self">大阪公立大学　研究者情報</a></td>
-        </tr>
-        <tr>
-            <th>研究者紹介リンク2</th>
-            <td><a href="https://www.omu.ac.jp/sss/undergraduate/psychology/faculty/" target="_self">大阪公立大学　教員紹介</a></td>
-        </tr>
-    </table>
-</div>
-
-<div class="table-container-hidden">
-    <table>
-        <tr>
-            <th>研究内容</th>
-        </tr>
-        <tr>
-            <td>人が持つ認知の仕組みをヒントに, 効果的な最適化・学習アルゴリズムをコンピュータシミュレーションによって確認し, 人に優しい環境・AIを探求しています.</td>
-        </tr>
-        <tr>
-            <th>研究キーワード</th>
-        </tr>
-        <tr>
-            <td>強化学習, 適応アルゴリズム</td>
-        </tr>
-        <tr>
-            <th>研究者紹介リンク1</th>
-        </tr>
-        <tr>
-            <td><a href="https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html" target="_self">大阪公立大学　研究者情報</a></td>
-        </tr>
-        <tr>
-            <th>研究者紹介リンク2</th>
-        </tr>
-        <tr>
-            <td><a href="https://www.omu.ac.jp/sss/undergraduate/psychology/faculty/" target="_self">大阪公立大学　教員紹介</a></td>
         </tr>
     </table>
 </div>
@@ -244,3 +183,64 @@ permalink: /member/
         </tr>
     </table>
 </div>
+
+---
+
+<img src="/public/img/Prof-Notsu.png">
+
+<p style="font-size: 32px">野津 亮</p>
+
+<p style="font-size: 24px">教授</p>
+<br>
+
+<div class="table-container">
+    <table>
+        <tr>
+            <th>研究内容</th>
+            <td>人が持つ認知の仕組みをヒントに, 効果的な最適化・学習アルゴリズムをコンピュータシミュレーションによって確認し, 人に優しい環境・AIを探求しています.</td>
+        </tr>
+        <tr>
+            <th>研究キーワード</th>
+            <td>強化学習, 適応アルゴリズム</td>
+        </tr>
+        <tr>
+            <th>研究者紹介リンク1</th>
+            <td><a href="https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html" target="_self">大阪公立大学　研究者情報</a></td>
+        </tr>
+        <tr>
+            <th>研究者紹介リンク2</th>
+            <td><a href="https://www.omu.ac.jp/sss/undergraduate/psychology/faculty/" target="_self">大阪公立大学　教員紹介</a></td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-container-hidden">
+    <table>
+        <tr>
+            <th>研究内容</th>
+        </tr>
+        <tr>
+            <td>人が持つ認知の仕組みをヒントに, 効果的な最適化・学習アルゴリズムをコンピュータシミュレーションによって確認し, 人に優しい環境・AIを探求しています.</td>
+        </tr>
+        <tr>
+            <th>研究キーワード</th>
+        </tr>
+        <tr>
+            <td>強化学習, 適応アルゴリズム</td>
+        </tr>
+        <tr>
+            <th>研究者紹介リンク1</th>
+        </tr>
+        <tr>
+            <td><a href="https://kyoiku-kenkyudb.omu.ac.jp/html/100001752_ja.html" target="_self">大阪公立大学　研究者情報</a></td>
+        </tr>
+        <tr>
+            <th>研究者紹介リンク2</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.omu.ac.jp/sss/undergraduate/psychology/faculty/" target="_self">大阪公立大学　教員紹介</a></td>
+        </tr>
+    </table>
+</div>
+
+<br>
