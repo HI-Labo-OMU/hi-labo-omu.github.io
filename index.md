@@ -6,13 +6,13 @@ layout: none
 <html>
 <head>
   <!--ローカル用-->
-  
-  <meta http-equiv="refresh" content="0; url=http://127.0.0.1:4000/top_page/" />
-  
-  <!--公開用-->
   <!--
-  <meta http-equiv="refresh" content="0; url=https://hi-labo-omu.github.io/top_page/" />
+  <meta http-equiv="refresh" content="0; url=http://127.0.0.1:4000/top_page/" />
   -->
+  <!--公開用-->
+  
+  <meta http-equiv="refresh" content="0; url=https://hi-labo-omu.github.io/top_page/" />
+  
   
 </head>
 <body>
